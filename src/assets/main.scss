@@ -1,0 +1,27 @@
+// ---------- Bundle All CSS ---------- //
+
+// -- Import Font
+@import url(https://fonts.googleapis.com/css?family=Roboto|Staatliches);
+
+// -- Global Variabel 
+$font : 'Roboto', sans-serif;
+$font-size-primary : 20px;
+
+$color-primary : #f59d57;
+$color-secondary : #8ebdbe;
+$color-tertiary : #ecdd98;
+
+// -- Global Set Up
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: $font;
+}
+
+// -- Style Routes
+
+@import
+  './quiz';
